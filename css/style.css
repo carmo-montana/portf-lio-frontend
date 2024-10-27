@@ -1,0 +1,201 @@
+html,
+body,
+article,
+header,
+div,
+nav,
+ul,
+li,
+a strong {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+article,
+header,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+body {
+    background: #000 url('../image/imagem.png') center top no-repeat;
+    background-size: 700px 456px;
+    font: .9em/1.4em "" Helvetica Neue", Helvetica, Arial, sans-serif";
+    color: #999;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #9cf;
+    font-family: 'ration_oneregular', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    margin: 0 15px;
+    font-display: swap;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+    font-weight: inherit;
+    font-display: swap;
+    font-display: swap;
+}
+
+h1 {
+    font-size: 46px;
+    line-height: 50px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 35px;
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 21px;
+    line-height: 40px;
+    margin-bottom: 8px;
+}
+
+h4 {
+    font-size: 28px;
+    line-height: 40px;
+    margin-bottom: 4px;
+}
+
+h5 {
+    font-size: 17px;
+    line-height: 24px;
+
+}
+
+h6 {
+    font-size: 1.2em;
+    line-height: 21px;
+
+}
+
+.subheader {
+    color: #777;
+}
+
+p {
+    margin: 0 15px 20px 0;
+}
+
+
+strong {
+    font-weight: bold;
+    color: #bbb;
+}
+
+small {
+    font-size: 80%;
+}
+
+a,
+a:visited {
+    color: #58f;
+    text-decoration: none;
+    outline: 0;
+    word-wrap: break-word;
+}
+
+a:hover,
+a:focus {
+    color: #96f;
+}
+
+p a,
+p a:visited {
+    line-height: inherit;
+}
+
+ul,
+ol {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none outside;
+}
+
+ol {
+    list-style: decimal;
+}
+
+ol,
+ul.square,
+ul.circle,
+ul.disc {
+    margin-left: 30px;
+}
+
+ul.square {
+    list-style: square outside;
+}
+
+ul.circle {
+    list-style: circle outside;
+}
+
+ul.disc {
+    list-style: disc outside;
+}
+
+ul ul,
+ul ol,
+ol ol,
+ol ul {
+    margin: 4px 0x 5px 30px;
+    font-size: 90%;
+}
+
+ul ul li,
+ul ol li,
+ol ol li,
+ol ul li {
+    margin-bottom: 6px;
+}
+
+li {
+    line-height: 18px;
+    margin-bottom: 12px;
+}
+
+ul.large li {
+    line-height: 21px;
+}
+
+li p {
+    line-height: 21px;
+}
+
+img.scale-with-grid {
+    max-width: 100%;
+    height: auto;
+}
